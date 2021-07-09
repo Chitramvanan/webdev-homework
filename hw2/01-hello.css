@@ -1,3 +1,18 @@
 .container {
   width: 50vw;
+   
 }
+p {
+  text-align: center;
+}
+p::first-line {
+  font-size: 8cm;
+    }
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 20;
+    }
+
+    
