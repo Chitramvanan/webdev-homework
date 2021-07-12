@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>05 - Form</title>
-    <!-- <link rel="stylesheet" href="../styles.css" />
-    <link rel="stylesheet" href="../css/05-form.css" /> -->
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="../hw2/05-form.css" />
   </head>
-  <body>
+  <body class="form">
     <main>
       <form action="">
-        <h1>Registration Form</h1>
+        <h1>REGISTRATION FORM</h1>
         <div>
           <label for="username">UserName:</label>
           <input type="text" name="username" id="username" />
@@ -27,22 +27,22 @@
           <input type="password" name="password" id="password" />
         </div>
         <br />
-        <fieldset>
+        <div>
           <legend>Would you like to sign up for the newsletter?</legend>
           <input type="radio" name="character" id="yes, sign me up" />
-          <label for="yes, sign me up">Yes, sign me up</label>
+          <label1 for="yes, sign me up">Yes, sign me up</label1>
           <input type="radio" name="character" id="no, thank you" />
-          <label for="no, thank you">No, thank you</label>
-        </fieldset>
-        <br />
-        <div>
-          <label for="date">Date:</label>
-          <input type="date" name="date" id="date" placeholder="mm/dd/yyyy" />
+          <label1 for="no, thank you">No, thank you</label1>
         </div>
         <br />
         <div>
-          <input type="button" value="Submit" />
-          <input type="button" value="Reset" />
+          <label for="date">Date:</label>
+          <input type="text" name="date" id="date" placeholder="mm/dd/yyyy" />
+        </div>
+        <br />
+        <div>
+          <input type="button" class="btn-primary" value="Submit" />
+          <input type="button" class="btn-secondary" value="Reset" />
         </div>
       </form>
     </main>
