@@ -13,9 +13,84 @@
     <link rel="stylesheet" href="hw-styles.css" />
   </head>
   <body>
-    <main>
-      <form>
-        <h1>Contact Form</h1>
+    <main class="container mt-4">
+      <form class="bg-light border rounded mx-auto p-2">
+        <h1>CONTACT FORM</h1>
+        <div class="row p-2">
+          <div class="col-12 col-sm-3 cpl-lg-3">
+            <label for="username">Username:</label>
+          </div>
+          <div class="col-12 col-sm-9 col-lg-9">
+            <input type="username" class="form-control" id="username" />
+          </div>
+        </div>
+        <div class="row p-2">
+          <div class="col-12 col-sm-3 cpl-lg-3">
+            <label for="email">Email:</label>
+          </div>
+          <div class="col-12 col-sm-9 col-lg-9">
+            <input type="text" class="form-control" id="email" />
+          </div>
+        </div>
+        <div class="row p-2">
+          <div class="col-12 col-sm-3 cpl-lg-3">
+            <label for="password">Password:</label>
+          </div>
+          <div class="col-12 col-sm-9 col-lg-9">
+            <input type="password" class="form-control" id="password" />
+          </div>
+        </div>
+        <div class="row p-2">
+          <div class="col-10 col-sm-10 cpl-lg-10">
+            <label class="form-check-label" for="selectInput">
+              Would you like to sign up for the newsletter?
+            </label>
+          </div>
+        </div>
+        <div class="row p-2">
+          <div class="col-10 col-sm-10 cpl-lg-10">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="formcheckRadios"
+                id="formCheckRadios1"
+              />
+              <label class="form-check-label" for="formCheckRadios1">
+                Yes, sign me up
+              </label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="formcheckRadios"
+                id="formCheckRadios2"
+              />
+              <label class="form-check-label" for="formCheckRadios2">
+                No, thank you
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="row p-2">
+          <div class="col-12 col-sm-3 cpl-lg-3">
+            <label for="date">Date:</label>
+          </div>
+          <div class="col-12 col-sm-9 col-lg-9">
+            <input
+              type="text"
+              name="date"
+              class="form-control"
+              id="date"
+              placeholder="mm/dd/yyyy"
+            />
+          </div>
+        </div>
+        <div class="btn-toolbar">
+          <button class="btn btn-primary" type="Submit">Submit</button>
+          <button class="btn btn-secondary" type="Reset">Reset</button>
+        </div>
       </form>
     </main>
   </body>
